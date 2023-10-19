@@ -4,7 +4,7 @@
 
 .header-container {
   background-color: #1F2937;
-  border: 3px solid lightcoral;
+  /* border: 3px solid lightcoral; */
   padding: 2%;
   margin: 0;
   display: flex;
@@ -14,15 +14,15 @@
 .header-top{
   display: flex;
   align-self: center;
-  width: 70%;
+  width: 57%;
   padding: 1%;
-  border: 6px solid lightgreen;
+  /* border: 6px solid lightgreen; */
   font-size: 24px;
   color: #F9FAF8;
 }
 
 .header-top div {
-  border: 2px solid brown;
+  /* border: 2px solid brown; */
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -33,7 +33,7 @@
 }
 
 .header-middle {
-  border: 2px solid white;
+  /* border: 2px solid white; */
   width: 70%;
   align-self: center;
   color: #F9FAF8;
@@ -59,4 +59,34 @@ button {
   border-radius: 8px;
   font-weight:bolder;
   border: none;
+}
+
+.middle1-container {
+  display: flex;
+  background-color: white;
+  /* border: 3px solid lightcoral; */
+  padding: 2%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#random {
+  font-size: 36px;
+  color: #1F2937;
+  text-align: center;
+}
+
+.middle-sub {
+  /* border: 2px solid lightsalmon; */
+  width: 150px;
+  margin: 2%;
+}
+
+.middle-sub p{
+  color: #1F2937;
+  font-size: 12px;
+  text-align: center;
+  
 }
