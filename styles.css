@@ -110,3 +110,48 @@ button {
   width: 45%;
   /* border: 3px solid lightcoral; */
 }
+
+.middle3-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+  /* border: 3px solid lightcoral; */
+  width: 100%;
+  padding: 5% 0% 5%;
+}
+
+.action-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #3882F6;
+  color: white;
+  width: 35%;
+  border-radius: 6.5px;
+  padding: 1% 2.5%;
+}
+
+.action-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 3px solid pink; */
+}
+
+#bottom-button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 8px 25px;
+  border-radius: 8px;
+  border: 1px solid white;
+  font-weight:bolder;
+  border: none;
+}
+
+footer {
+  background-color: #1F2937;
+  text-align: center;
+  color: #E5E7EB;
+  padding: 2%;
+}
